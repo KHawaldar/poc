@@ -51,7 +51,7 @@ If any of the above steps fail, b/g deployment tries to fix the issue.
 
 Before upgrading the MySQL 8.0 version, it checks the prepatch compatibility.
 These are the checks it will carry before upgrading to 8
-{code}
+```
 1) Usage of old temporal type
 No issues found.
 
@@ -132,7 +132,7 @@ No issues found.
 25) Column definition mismatch between InnoDB Data Dictionary and actual table definition.
 No issues found.
 
-{code}
+```
 
 #### Switch Over
 
