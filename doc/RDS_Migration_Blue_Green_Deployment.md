@@ -20,11 +20,17 @@
 ### Blue/Green Deployment
 
 #### Blue/Green Environment Creation
+
 #### Switch Over
+
 ##### Cancel to Switch over
+
 ##### Proceed to Switch over
+
 ###### Choose the quiet time to switch over to production env
+
 ##### Success Switch over
+
 ##### FAQ on Switch over
 
 
