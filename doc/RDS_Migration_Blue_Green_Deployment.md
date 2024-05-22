@@ -3,9 +3,28 @@
   * [Blue/Green Deployment](#blue/green-deployment)
     * [Blue/Green Environment Creation](#blue/green-environment-creation)
     * [Switch Over](#swithch-over)
-
-
+      * [Cancel to Switch over](#cancel-to-switch-over)
+      * [Proceed to Switch over](#proceed-to-switch-over)
+        * [Choose the quiet time to switch over to production env](#choose-the-quiet-time-to-switch-over-to-production-env)
+      * [Success Switch over](#success-switch-over)
+      * [FAQ on Switch over](#FAQ-on-switch-over)
+* [Demo](#demo)
+  * [Prerequisite](#prerequisite])
+  * [Creating a blue/green deployment](#creating-a-blue/green-deployment)
+  * [Connecting to green db instance via MySQL workbench in Integration env](#connecting-to-green-db-instance-via-mySQL-workbench-in-integration-env)
+  * [Switching a Blue/Green deployment](#switching-a-blue/green-deployment)
+  * [Check Pods](#check-pods)
+  * [Re deploy CloudFormation](#re-deploy-cloudformation)
+  
 ## Knowledge Base
 ### Blue/Green Deployment
+
 #### Blue/Green Environment Creation
 #### Switch Over
+##### Cancel to Switch over
+##### Proceed to Switch over
+###### Choose the quiet time to switch over to production env
+##### Success Switch over
+##### FAQ on Switch over
+
+
