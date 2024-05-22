@@ -153,15 +153,19 @@ There are 2 factors
 
 ReplicaLag should be near zero.
 
-> 0-→ replica is continuing in the background
+ > 0: replica is continuing in the background
 
-< 0  → replica is not active
+ < 0: replica is not active
 
 During the switchover, writes are cut off from databases in both environments. During this cut-off time, if any operation takes place from the application, we are losing the data here.
 
 ###### Choose the quiet time to switch over to production env
+Check DatabaseConnections from CloudWatch for 1 month and decide the time based on low database connections.
 
 ##### Success Switch over
+
+Check the pod. It should run without any interruption.
+In the edge case, if the pod goes crash back loop status ( pod is not able to connect to new db instance due to credential issue), re-deploy the CFN
 
 ##### FAQ on Switch over
 
