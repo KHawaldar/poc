@@ -21,7 +21,7 @@
 ### Blue Green Deployment
 #### Step 1: Blue env
 
-(https://github.com/KHawaldar/poc/blob/master/images/blue-en.png)
+https://github.com/KHawaldar/poc/blob/master/images/blue-en.png
 
 
 #### Step 2: B/G deployment 
