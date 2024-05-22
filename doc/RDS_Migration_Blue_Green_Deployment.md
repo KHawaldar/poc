@@ -37,6 +37,17 @@
 ![](https://github.com/KHawaldar/poc/blob/master/images/green_to_blue.png)
 
 #### Blue Green Environment Creation
+##### B/G Env. Creation has 3 steps, which take approximately 45 to 50 mins, 
+###### Creating a read replica of the source
+
+###### Db engine version upgrade
+###### Configure backups
+
+Note:
+
+Above observation of B/G creation time is tested with one table with 103,250 records.
+If any of the above steps fail, b/g deployment tries to fix the issue.
+![](https://github.com/KHawaldar/poc/blob/master/images/failed_to_apply.png)
 
 #### Switch Over
 
