@@ -133,12 +133,31 @@ No issues found.
 No issues found.
 
 ```
+ Once b/g env is created, the data in blue will be asynchronously replicating to green. But due to network issues or i/o issues, there may be a delay to replicate the data to green. 
+ This can be checked using the ReplicaLag metric in CloudWatch. (This is shown further below).
 
 #### Switch Over
+A switchover promotes the green environment to be the new production environment
 
 ##### Cancel to Switch over
+If the replica stopped completely and shows an error, then restart the whole process again by deleting the blue/green deployment. Blue green deployment internally deletes the green environment.
+This can be seen in Blue/Green deploymemnt--->Connectivity & Security→ Scroll down to the Replication section.
+![](https://github.com/KHawaldar/poc/blob/master/images/replica-error.png)
+
 
 ##### Proceed to Switch over
+There are 2 factors
+
+##### 1. ReplicaLag metrics of green env
+##### 2. The maximum number of connections of DB instance in blue env. This can be checked from performance insight if it is enabled or from the DatabaseConnections metric in CloudWatch of blue env.
+
+ReplicaLag should be near zero.
+
+> 0-→ replica is continuing in the background
+
+< 0  → replica is not active
+
+During the switchover, writes are cut off from databases in both environments. During this cut-off time, if any operation takes place from the application, we are losing the data here.
 
 ###### Choose the quiet time to switch over to production env
 
