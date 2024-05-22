@@ -1,7 +1,7 @@
 # RDS Migration- Blue/Green Deployment.
 * [Knowledge Base](#knowledge-base)
-  * [Blue/Green Deployment](#blue/green-deployment)
-    * [Blue/Green Environment Creation](#blue/green-environment-creation)
+  * [Blue Green Deployment](#blue-green-deployment)
+    * [Blue Green Environment Creation](#blue-green-environment-creation)
     * [Switch Over](#swithch-over)
       * [Cancel to Switch over](#cancel-to-switch-over)
       * [Proceed to Switch over](#proceed-to-switch-over)
@@ -17,9 +17,9 @@
   * [Re deploy CloudFormation](#re-deploy-cloudformation)
   
 ## Knowledge Base
-### Blue/Green Deployment
+### Blue Green Deployment
 
-#### Blue/Green Environment Creation
+#### Blue Green Environment Creation
 
 #### Switch Over
 
