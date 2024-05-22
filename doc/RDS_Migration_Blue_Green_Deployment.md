@@ -19,6 +19,11 @@
 ## Knowledge Base
 
 ### Blue Green Deployment
+#### Step 1: Blue env (https://github.com/KHawaldar/poc/tree/master/images/blue-en.png)
+#### Step 2: B/G deployment 
+#### Step 3: Switch over started
+#### Step 4: App connected
+
 
 #### Blue Green Environment Creation
 
