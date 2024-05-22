@@ -25,9 +25,16 @@
 
 
 #### Step 2: B/G deployment 
-#### Step 3: Switch over started
-#### Step 4: App connected
 
+![](https://github.com/KHawaldar/poc/blob/master/images/pic3.png)
+#### Step 3: Switch over started
+![](https://github.com/KHawaldar/poc/blob/master/images/pic.png)
+#### Step 4: App connected to greem
+
+![](https://github.com/KHawaldar/poc/blob/master/images/pic1.png)
+
+#### Step 5: B/G deployment success
+![](https://github.com/KHawaldar/poc/blob/master/images/green_to_blue.png)
 
 #### Blue Green Environment Creation
 
